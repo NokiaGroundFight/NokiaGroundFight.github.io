@@ -1,0 +1,9 @@
+[book]
+title = "Pages"
+authors = ["author"]
+language = "en"
+
+[output.html]
+site-url = "/pages/"
+hash-files = true
+
