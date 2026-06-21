@@ -33,15 +33,18 @@ The LLM generates the code.
 The LLM generates the check for X. It generates an isolated check. Not efficient, not maintainable, not how the others would have done it.
 The LLM doesn't search if someone else checked for X already. Except some input asks it to. And even then, maybe it does, maybe not - who knows...
 The LLM doesn't learn, it doesn't grow the institutionalized knowledge, it generates based on input.
-Doesn't matter though, because the input has to be small. The knowledge won't fit in. And even if it could it is rarely written down anyways.
+Doesn't matter though, because the input has to be small. The knowledge won't fit in. And even if it could, it rarely is written down anyways.
 
 But we generate code, it is so comfortable.
 Of course we read it, to make sure it makes "sense".
 We, who didn't even know how to check for X.
 And so we conclude "it makes sense". The test passes. The feature works.
+The minute we spent to read it, it all seems fine.
+
 At some point we stop reading as well. Because the test passes. Because the feature works.
 
-No one asked a question.
-No one figured how to check X a little more efficient, a little more maintainable.
+No one asks how to check X a little more efficient, a little more maintainable.
+No one asks "isn't this check for X a little odd?"
+No one asks any question anymore.
 
 No one grew our knowledge.
